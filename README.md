@@ -1,55 +1,33 @@
-# Project name
+# ABLE Tools
 ## Project Information
-(Brief summary here)
+
+ABLE Tools is a collection of general use tools for all EML projects. If you have a suggestion/request for a tool - open an issue! The project is also designed as an easy approach to Unity scripting, and to train volunteers who are new to Unity, so development might be slow. ABLE is an acronym for something or other
 
 ## External Assets
 
-### Included
-(List of assets included in the project here. Include a link to the asset source.>
-
-| Asset | Purpose |
-| ------ | ------ |
-| [VRTK](https://github.com/ExtendRealityLtd/VRTK) | Tool kit used for implementing VR functionality into a scene. Allows easy interchangeability between different VR hardware. |
-| [SteamVR](https://github.com/ValveSoftware/steamvr_unity_plugin) | Gives Unity access to SteamVR. | 
-| [Oculus Plugin](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022) | Allows Oculus functionality within Unity. |
-| [Name here](Link here) | Summary here |
-
-### Excluded
-The following assets are either necessary or recommended for the project to work as intended, and may be included in the project's final release. However, we cannot distribute them, and they must be acquired elsewhere.
-
-(Inlude list of assets needed for the project but not included in the repo.)
-
-| Asset | Purpose | Optional? |
-| ------ | ------ | ------ |
-| [Optional asset](Link here) | Summary here | :heavy_check_mark: |
-| [Necessary asset](Link here) | Summary here | :x: |
+Tools are designed to be as standalone as possible. When a tool does require a specific asset, that will be indicated on the readme for that tool.
 
 ## Versioning
 
-- Unity (version number here)
-- Include required plugin versions here
+- Unity 2018.4
 
 ## Getting Started
 
-1. Instructions for use here
+1. TODO
 
 ## Building
 
-1. Instructions for building the project here
-
-## Contributing (Optional) 
-
-1. Instructions for public contributions here
-2. Create a wiki page if this is long
+1. TODO
 
 ## Team
 
 ### Faculty:
-(Faculty team here)
+
+- Catherine Winters - Staff Advisor
 
 ### Current EML Student Team:
 
-- (Name) - (Position)
+- Abel Waller - Project Lead
 
 ## Documentation
 For documentation, please visit the UBC Wiki for this repository: 
