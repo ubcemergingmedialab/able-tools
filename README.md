@@ -5,7 +5,7 @@ ABLE Tools is a collection of general use tools and art assets for all Emerging 
 
 If you have a suggestion/request for a tool - open an issue! On GitHub, select "Issues" and "New Issue" to create a new task for someone to complete. (You can even assign it to yourself!)
 
-ABLE is an acronym for something or other; we can't remember what. Funny, right?
+ABLE is an acronym for All Builds for Learning Enhancement, and we totally didn't come up with this after the fact. 
 
 ## External Assets
 
@@ -16,6 +16,7 @@ Tools are designed to be as standalone as possible. When a tool does require a s
 - Unity 2018.4
 
 We use the 2018 LTS ("Long Term Support") version of Unity because it's guaranteed to not have major changes.
+If a tool would benefit from a newer feature (i.e UIElements based editor tools) we might consider moving up a version, or at least having tools with different version compatibilities. 
 
 ## Getting Started
 
