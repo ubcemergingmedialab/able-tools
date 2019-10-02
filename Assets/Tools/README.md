@@ -24,5 +24,6 @@ When writing a new script, include the below template above the class declaratio
 * Summary: Tool is for xyz
 * Use: Attach script to xyz object. See example scene for detailed instructions.
 * Tested with: Unity 2018.4, 2019.2
+* Author: Abel Waller 2019
 */
 ```
