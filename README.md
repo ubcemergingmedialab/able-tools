@@ -35,6 +35,10 @@ If a tool would benefit from a newer feature (i.e UIElements based editor tools)
 ### Current EML Student Team:
 
 - Abel Waller - Project Lead
+- Alice Hsaio - Designer
+- Boxiu Xiao - Developer
+- Sandy Co - Designer
+- Tiana Perry - Designer
 
 ## Documentation
 For documentation, please visit the UBC Wiki for this repository:
