@@ -5,16 +5,27 @@ using UnityEngine;
 public class TriggerAllinOne : MonoBehaviour
 {
     public Light light;
+    public bool toggle;
     private bool on = false;
 
     void OnTriggerEnter(Collider other)
     {
-        light.enabled = true;
-    }
+        if (toggle)
+        {
+            light.enabled = !light.enabled;
+        }
+        else
+        {
+            light.enabled = !light.enabled;
+        }
+        }
 
     private void OnTriggerExit(Collider other)
     {
-        light.enabled = false;
+        if (toggle)
+        {
+            light.enabled = false;
+        }
     }
 
 
