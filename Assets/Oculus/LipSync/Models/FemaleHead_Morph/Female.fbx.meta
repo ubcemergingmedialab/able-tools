@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cbaf1c32e7ec84f10a51be1b09c0ef46
+guid: 0a5f3b74c5ea4c44a9d1aeda0d9c1125
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -9,9 +9,9 @@ ModelImporter:
     100006: body_gen_PLY
     100008: body_JNT
     100010: chest_JNT
-    100012: hair_gen_PLY
-    100014: head_JNT
-    100016: //RootNode
+    100012: //RootNode
+    100014: hair_gen_PLY
+    100016: head_JNT
     100018: neck_JNT
     100020: neckBase_JNT
     100022: root_JNT
@@ -22,9 +22,9 @@ ModelImporter:
     400006: body_gen_PLY
     400008: body_JNT
     400010: chest_JNT
-    400012: hair_gen_PLY
-    400014: head_JNT
-    400016: //RootNode
+    400012: //RootNode
+    400014: hair_gen_PLY
+    400016: head_JNT
     400018: neck_JNT
     400020: neckBase_JNT
     400022: root_JNT
@@ -44,38 +44,7 @@ ModelImporter:
     4300004: hair_gen_PLY
     9500000: //RootNode
     13700000: body_gen_PLY
-    2186277476908879412: ImportLogs
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: eyelashes
-    second: {fileID: 2100000, guid: e906d4c6bf3304d5dac06eee4fe24c54, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: hair
-    second: {fileID: 2100000, guid: d0455a0ebc21e4c758037cb4b82bebd2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: head
-    second: {fileID: 2100000, guid: 3d380053edac948aa9d428fce6a5288b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: innerEye
-    second: {fileID: 2100000, guid: 3d380053edac948aa9d428fce6a5288b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: outerEyeShell
-    second: {fileID: 2100000, guid: 76f25b997543f432bbe00737485b392e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: shirt
-    second: {fileID: 2100000, guid: 0ad01ecbcffbb4c91af7ffa1ebc14f74, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -134,7 +103,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   importAnimation: 1
