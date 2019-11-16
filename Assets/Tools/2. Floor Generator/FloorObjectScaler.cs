@@ -2,15 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FloorObjectScaler : MonoBehaviour
+namespace EML
 {
-    // Start is called before the first frame update
-    void Start()
+
+    /// <summary>
+    /// Scales the floor of the room based on the roomscale setup. Useful if the ply area is dependant on the walkable area
+    /// </summary>
+    public class FloorObjectScaler : MonoBehaviour
     {
-        Vector3 target = EML.FloorGen.LoadXRRoomScale.GetDimensions();
-        target.y = 0.1f;
+        void Start()
+        {
+            Vector3 target = FloorGen.LoadXRRoomScale.GetDimensions();
+            target.y = 0.1f;
 
-        transform.localScale = target;
+            transform.localScale = target;
+        }
+
     }
-
 }

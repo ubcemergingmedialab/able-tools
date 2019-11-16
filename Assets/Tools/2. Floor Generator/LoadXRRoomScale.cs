@@ -19,6 +19,10 @@ namespace EML
         public class LoadXRRoomScale
         {
             
+            /// <summary>
+            /// Returns the 4 corners of the largest convex quad in the room set up. Corners are returned clockwise
+            /// </summary>
+            /// <returns>List of corners</returns>
             public static List<Vector3> GetFloor()
             {
                 if(XRDevice.GetTrackingSpaceType() == TrackingSpaceType.RoomScale)
@@ -75,14 +79,6 @@ namespace EML
                 return XRSettings.loadedDeviceName;
             }
 
-            /*
-            public static OVRPlugin.Vector3f[] OculusGetFloor()
-            {
-                OVRPlugin.BoundaryGeometry geo = OVRPlugin.GetBoundaryGeometry(OVRPlugin.BoundaryType.PlayArea);
-                return geo.Points;
-                //return OVRBoundary.GetGeometry(OVRBoundary.BoundaryType.PlayArea);
-            }
-            */
         }
     }
 }
