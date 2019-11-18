@@ -285,8 +285,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6641ae69c7029684dbe9384484ec4e58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 469005337}
-  toggle: 0
+  lights: []
+  enterBehavior:
+    activate: 0
+    state: 0
+    isToggle: 0
+  exitBehavior:
+    activate: 0
+    state: 0
+    isToggle: 0
 --- !u!1 &1010772434
 GameObject:
   m_ObjectHideFlags: 0
