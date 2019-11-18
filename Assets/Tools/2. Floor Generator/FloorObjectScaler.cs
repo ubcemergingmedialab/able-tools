@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+* Summary: Tool is for creating scaling an object to the walkable area in a room
+* Use: Attach to an object to be scaled. See example scene for detailed instructions.
+* Tested with: Unity 2018.4
+* Author: Abel Waller 2019
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+* Summary: Backend for roomscale tools
+* Use: N/A
+* Tested with: Unity 2018.4
+* Author: Abel Waller 2019
+* \todo: expose more helper utility methods (ie. check if an object is in bounds, etc)
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;

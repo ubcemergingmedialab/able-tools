@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+* Summary: Tool is for creating a quad of the walkable area in a room
+* Use: Attach script to a quad mesh. See example scene for detailed instructions, a sample prefab is also provided.
+* Tested with: Unity 2018.4
+* Author: Abel Waller, Boxiu Xiao 2019
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

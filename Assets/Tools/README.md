@@ -7,6 +7,7 @@ This folder contains numbered folders, each containing a set tool, and a sample 
 | # | Tool | Description |
 | - | ---- | ----------- |
 | 0 | Example | Brief sample of tool template and ideal documentation |
+| 2 | Roomscale Floor | Provides crossplatform accessors for visualizing and using the VR player's walkable area |
 
 ## Contributing
 
