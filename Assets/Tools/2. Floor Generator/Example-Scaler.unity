@@ -144,6 +144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ccaac16886e3a8458579de3562423ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  overrideHeight: 1
+  heightOverride: 0.1
 --- !u!65 &525858208
 BoxCollider:
   m_ObjectHideFlags: 0
