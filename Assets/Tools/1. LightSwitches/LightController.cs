@@ -1,7 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿/*
+* Summary: Tool is for toggling lights in a scene based on a collision
+* Use: Attach script to object with a trigger collider
+* Tested with: Unity 2018.4
+* Author: Abel Waller, Boxiu Xiao 2019
+*/
+
 using UnityEngine;
 
+[RequireComponent(typeof(Collider))]
 public class LightController : MonoBehaviour
 {
     [SerializeField] Light[] lights;
@@ -45,9 +51,9 @@ public class LightController : MonoBehaviour
     {
         [Tooltip("Controls whether this behavior should affect the lights")]
         public bool activate;
-        [Tooltip("Controls what state this behavior should set lights to")]
+        [Tooltip("Controls what state this behavior should set lights to (on/off)")]
         public bool state;
-        [Tooltip("If true, override state and toggle active state on/off")]
+        [Tooltip("If true, override state and toggle active state based on its current state")]
         public bool isToggle;
     }
 }
